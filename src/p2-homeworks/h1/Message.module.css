@@ -1,0 +1,49 @@
+body {
+    background: lightyellow;
+}
+
+
+.messages {
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+}
+
+.avatar {
+    margin-right: 25px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.textMessage {
+    padding: 10px;
+    background-color: forestgreen;
+    border-radius: 5px 5px 5px 0px;
+}
+
+.corner {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, lightyellow 15px, forestgreen 0);
+}
+
+.name {
+    font-family: "Century Schoolbook";
+    font-weight: bold;
+    font-size: 16px;
+    color: darkslateblue;
+}
+
+.message {
+   min-width: 150px;
+    max-width: 300px;
+    color: wheat;
+}
+
+.time {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    color: white;
+}
